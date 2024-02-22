@@ -20,7 +20,9 @@ function projects(props) {
                       <div className='layer'>
                           <h5>HEALTH STACK</h5>
                           <p>An integrated e-commerce platform specializing in the sale of medicines, healthcare products, and pharmaceutical items, featuring distinct portals for administrators, consumers, and sellers.</p>
-                          <FontAwesomeIcon className='sec' icon={faExternalLinkAlt} style={{ color: 'white' }} />
+                         <Link to='/health'>
+                         <FontAwesomeIcon className='sec' icon={faExternalLinkAlt} style={{ color: 'white' }} />
+                         </Link> 
                       </div>
                   </div>
                   <div className='row'>
@@ -28,7 +30,9 @@ function projects(props) {
                       <div className='layer'>
                           <h5>DRUG TARGET INTERACTION AND PREDICTION </h5>
                           <p>A machine learning project focused on predicting drug-target interactions, leveraging advanced algorithms to forecast the interaction outcomes between drugs and their molecular targets.</p>
+                          <Link to='/drug'>
                           <FontAwesomeIcon className='sec' icon={faExternalLinkAlt} style={{ color: 'white' }} />
+                          </Link>
                       </div>
                   </div>
                   <div className='row'>
@@ -36,7 +40,9 @@ function projects(props) {
                       <div className='layer'>
                           <h5>LIBRARY MANAGEMENT SYSTEM</h5>
                           <p>A console-based Object-Oriented Programming (OOP) project designed for library management, incorporating CRUD operations, along with mathematical functionalities.</p>
+                          <Link to='/library'>
                           <FontAwesomeIcon className='sec'  icon={faExternalLinkAlt} style={{ color: 'white' }} />
+                          </Link>
                       </div>
                   </div>
               </div>

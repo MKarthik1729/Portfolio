@@ -98,8 +98,8 @@ span{
     box-shadow: 0 0 20px rgb(252, 254, 254);
 }
 .PhotoAdd {
-    width: 400px; 
-    height: 400px; 
+    width: 550px; 
+    height: 550px; 
     border-radius: 50%;
     overflow: hidden;
     display: inline-block;
